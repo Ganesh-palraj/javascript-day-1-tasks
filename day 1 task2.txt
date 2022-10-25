@@ -1,0 +1,43 @@
+                             A BLOG ABOUT OBJECTS AND ITS INTERNAL REPRESENTATION
+
+                             
+OBJECTS IN JavaScript
+
+In JavaScript, an object is a standalone entity, with properties and type.It is one of the most important data-type in 
+javascript. An object is called a reference data type as it is a reference to where the data is stored.It is different 
+from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol)  Objects in JavaScript may 
+be defined as an unordered collection of related data, of primitive or reference types.
+
+OBJECTS INTERNAL REPRESENTATION 
+
+They are stored in the form of “key: value” pairs. These keys can be variables or functions and are called properties 
+and methods, respectively, in the context of an object.
+
+Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life.
+The concept of objects in JavaScript can be understood with real life, tangible objects.
+Example:
+let a employee be that particular object.
+
+OBJECTS AND PROPERTIES
+
+A JavaScript object has properties associated with it.The properties of an object define the characteristics of the object.
+You can define a property by assigning it a value. You access the properties of an object with dot notation.
+
+An example of the employee object is as follows:
+
+employee= {
+    "name": "Opal Kole",
+   " salary"= 15000; 
+    "allowance" = 1300;
+    }
+
+to access individual values in the object we can use the key value pair as follows
+employee.name for accessing name,
+ else to access as salary use employee.salary
+
+Properties of JavaScript objects can also be accessed or set using a bracket notation
+
+example:
+employee["name"]="opal kole"
+employee["salary"]= 15000
+employee[ "allowance"]=1300
